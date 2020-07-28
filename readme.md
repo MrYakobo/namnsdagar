@@ -1,8 +1,11 @@
 # Namnsdagar
 
-Den här repon är till för att scrapa namnsdagar från Svenska Akademin.
+Den här repon är till för att scrapa namnsdagar från [Svenska Akademins namnlista](https://www.svenskaakademien.se/svenska-akademien/almanackan/akademialmanackan/namnlista).
 
-CSV-filerna är public domain, för jag tror verkligen att namnlistan är det också. Svenska Akademin ger ut det fritt, och är ganska offenligt. Gött e de.
+CSV-filerna är public domain, för jag tror verkligen att namnlistan är det också. Svenska Akademin ger ut det fritt;
+och akademin är ju minst sagt ganska offentlig.
+
+Gött e de
 
 ---------------------------
 
