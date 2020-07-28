@@ -24,6 +24,8 @@ Högtider är följande dagar:
 
 ## all.csv
 
+En csv-fil utan filtrering. Vanligtvis vill du använda dig av namnlängden eller namnsdagarna.
+
 Kolumner:
 
 - `Namn`
@@ -32,20 +34,26 @@ Kolumner:
 - `Ingår i namnlängden` (Ja / Nej)
 - `Typ` (Högtid / Namn)
 
-## högtider.csv
+## namnlängd.csv
 
-`all.csv` där `Typ == "Högtid"`
+Namnlängden är den samling med namn som oftast menas med traditionell "namnsdag".
+Det är dessa namn som återfinns i de flesta fysiska kalendrar. 31 december har bara
+Sylvester namnsdag i namnlängden.
+
+`Ingår i namnlängden == "Ja"`
 
 Kolumner:
 
 - `Namn`
 - `Dag` (1-31)
 - `Månad` (1-12)
-- `Ingår i namnlängden` (Ja / Nej)
 
 ## namnsdag.csv
 
-`all.csv` där `Typ == "Namn"`
+Den "utökade" namnsdaglistan som vanliga namnlängden plus några besläktade namn i sig.
+31 december har både Sylvester och Sylve namnsdag.
+
+`Ingår i namnlängden == "Ja" && Typ == "Namn"`
 
 Kolumner:
 
@@ -54,12 +62,15 @@ Kolumner:
 - `Månad` (1-12)
 - `Ingår i namnlängden` (Ja / Nej)
 
-## namnlängd.csv
+## högtider.csv
 
-`namnsdag.csv` där `Ingår i namnlängden == "Ja"`
+En lista med högtiderna. 
+
+`Typ == "Högtid"`
 
 Kolumner:
 
 - `Namn`
 - `Dag` (1-31)
 - `Månad` (1-12)
+- `Ingår i namnlängden` (Ja / Nej)
