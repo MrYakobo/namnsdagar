@@ -40,7 +40,7 @@ Namnlängden är den samling med namn som oftast menas med traditionell "namnsda
 Det är dessa namn som återfinns i de flesta fysiska kalendrar. 31 december har bara
 Sylvester namnsdag i namnlängden.
 
-`Ingår i namnlängden == "Ja"`
+`Ingår i namnlängden == "Ja" && Typ == "Namn"`
 
 Kolumner:
 
@@ -53,7 +53,7 @@ Kolumner:
 Den "utökade" namnsdaglistan som vanliga namnlängden plus några besläktade namn i sig.
 31 december har både Sylvester och Sylve namnsdag.
 
-`Ingår i namnlängden == "Ja" && Typ == "Namn"`
+`Typ == "Namn"`
 
 Kolumner:
 
